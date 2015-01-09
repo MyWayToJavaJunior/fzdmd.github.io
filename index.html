@@ -4,9 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bower_components/animate-css/animate.css">
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="styles.css">
-	<title>Document</title>
+	<title>Old owl - Awesome Web</title>
 </head>
 
 <body>
@@ -21,48 +22,51 @@
 				<a href="#about">About</a>
 			</li>
 			<li>
-				<a href="#services">Services</a>
+				<a href="#video">Video</a>
 			</li>
 			<li>
-				<a href="#portfolio">Portfolio</a>
-			</li>
-			<li>
-				<a href="#contact">Contact</a>
+				<a href="#skills">Skills</a>
 			</li>
 		</ul>
 	</nav>
 	<div class="shadow"></div>
 	<header id="top" class="header">
+		<div id="large-header" class="large-header">
+			<canvas id="demo-canvas"></canvas>
+		</div>
 		<h1>ARE  YOU LOOKING FOR A WEB-DEVELOPER ? <br>
 BECOUSE I’M LOOKING FOR A NEW EMPLOYER</h1>
 		<div class="social">
 			<ul>
-				<li><a href="http://vk.com/id21696780"><i class="fa fa-vk"></i></a></li>
-				<li><a href="https://github.com/fzdmd"><i class="fa fa-github"></i></a></li>
-				<li><a href="https://www.facebook.com/profile.php?id=100004265166901"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="https://twitter.com/maks80273345"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="http://vk.com/id21696780"><i class="fa fa-vk"></i></a>
+				</li>
+				<li><a href="https://github.com/fzdmd"><i class="fa fa-github"></i></a>
+				</li>
+				<li><a href="https://www.facebook.com/profile.php?id=100004265166901"><i class="fa fa-facebook"></i></a>
+				</li>
+				<li><a href="https://twitter.com/maks80273345"><i class="fa fa-twitter"></i></a>
+				</li>
 			</ul>
 		</div>
 	</header>
+	<div id="video">
+		<iframe src="//player.vimeo.com/video/116125325" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+	</div>
 	<section id="about" class="about">
-		<div class="hidden-xs img">
+		<div class="hidden-xs img  wp1">
 			<img src="images/06.jpg" alt="">
 		</div>
-		<div class="left-block">
+		<div class="left-block  wp1">
 			<h5>Some information about me.</h5>
 			<p>I made my first website when i was 15 years old, now i 25 years old and last 5 years, i’m specialize in web development. I love writing beautifully crafted code for experiential websites/apps that push the capabilities of the browser, and the expectations of their audience.
 			</p>
 		</div>
 	</section>
-	<div class="img-block">
+	<div class="img-block wp3">
 		<p>Some say I'm a Freak. I prefer Geek.</p>
 	</div>
 	<div class="shadow"></div>
-	<div id="video">
-	<iframe src="//player.vimeo.com/video/116125325" width="100%" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<div class="shadow"></div>
-</div>
-	<div class="skills">
+	<div id="skills" class="skills wp4">
 		<!--		<h4>Skills</h4>-->
 
 		<div class="text-vertical-center">
@@ -109,7 +113,7 @@ BECOUSE I’M LOOKING FOR A NEW EMPLOYER</h1>
 			</a>
 		</div>
 	</div>
-<!--
+	<!--
 	<section id="services">
 		<div class="container">
 			<div class="row">
@@ -151,15 +155,18 @@ BECOUSE I’M LOOKING FOR A NEW EMPLOYER</h1>
 			</div>
 		</div>
 -->
-<!--
+	<!--
 		<div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2264.275534472341!2d37.76694800000001!3d55.422988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414aa6a16a00bbcf%3A0x66a7933658a7320e!2sRabochaya+ul.%2C+57%D0%BA1%2C+Domodedovo%2C+Moskovskaya+oblast&#39;%2C+142003!5e0!3m2!1sen!2sru!4v1420580522045" width="600" height="450" frameborder="0" style="border:0"></iframe>
 		</div>
--->
-		<div id="map"></div>
 	</section>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+-->
+	<div id="map"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+	<script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
+	<script src="plugins.js"></script>
 	<script src="main.js"></script>
 </body>
 
